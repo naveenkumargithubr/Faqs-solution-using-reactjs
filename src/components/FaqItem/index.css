@@ -1,0 +1,41 @@
+/* Write your code here. */
+
+.list-container {
+  list-style-type: none;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  max-width: 920px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.quetion-answer-container {
+  display: flex;
+  justify-content: space-between;
+  border-width: 1px solid black;
+}
+
+.horizantalline {
+  border: 1px solid #000307;
+}
+
+.Buttons {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.questiontext {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 22px;
+  color: rgb(41, 100, 134);
+}
+
+.answertext {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: rgb(51, 46, 61);
+}

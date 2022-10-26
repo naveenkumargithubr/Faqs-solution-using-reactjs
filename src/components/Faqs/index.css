@@ -1,0 +1,20 @@
+/* Write your code here. */
+.main-bg-container {
+  background-image: linear-gradient(
+    to top,
+    rgb(211, 229, 233),
+    rgb(250, 214, 147),
+    rgb(206, 201, 202)
+  );
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: rgba(236, 139, 11, 0.986);
+  text-align: center;
+}
